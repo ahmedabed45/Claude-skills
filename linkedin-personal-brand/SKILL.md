@@ -7,6 +7,15 @@ description: Build Mido's LinkedIn personal brand around Business Process Re-eng
 
 Builds and runs Mido's personal-branding content engine on LinkedIn, centered on Business Process Re-engineering (BPR), AI, automation, and digital transformation — the themes that map to his GCC job search positioning (IBM BAW delivery + Lean Six Sigma Black Belt + CRISC).
 
+## Example invocations
+
+This skill triggers on natural language, not a slash command — just say what you want:
+
+- "What's trending in BPR/AI/transformation right now?" → Step 1 (trend research)
+- "Draft this week's LinkedIn article" → Step 2
+- "Give me today's LinkedIn post" / "Draft this week's daily posts" → Step 3
+- "Approved, publish it" / "Go ahead and post it" → Step 5 (publish via Composio, only after a draft has been shown and approved)
+
 ## Workflow overview
 
 1. **Surface trends** — live web search for what's currently moving in BPR / AI / automation / transformation (LinkedIn discourse, industry news, thought-leader posts).
