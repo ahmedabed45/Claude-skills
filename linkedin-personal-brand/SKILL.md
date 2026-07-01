@@ -11,10 +11,10 @@ Builds and runs Mido's personal-branding content engine on LinkedIn, centered on
 
 1. **Surface trends** — live web search for what's currently moving in BPR / AI / automation / transformation (LinkedIn discourse, industry news, thought-leader posts).
 2. **Draft weekly article** — one interactive/long-form LinkedIn article per week, grounded in trend research.
-3. **Draft daily posts** — one short LinkedIn post per day. Mix of two angles:
+3. **Draft daily posts** — one short LinkedIn post per weekday (Mon-Fri). Fixed weekly split of 2 POV/hot-take days and 3 news-recap days:
    - **POV/hot-take** days: Mido's own opinion or contrarian take on a BPR-AI-transformation topic.
    - **News-recap** days: a recent development + his commentary.
-   Alternate or ask Mido which angle he wants for a given day if unclear.
+   Default assignment is POV on Mon/Thu and news-recap on Tue/Wed/Fri, but ask Mido if he wants a different day arrangement for a given week.
 4. **Present for review** — ALWAYS show drafts in the chat conversation for Mido's approval. Never publish without explicit sign-off. No file is needed — chat approval is the review step.
 5. **Publish via Composio** — once Mido approves a specific draft (word like "approved", "publish it", "go ahead"), use the Composio LinkedIn tool to post it. Only publish the exact approved text, or the text as amended by Mido's final edits.
 
@@ -33,17 +33,18 @@ Weave in Mido's established positioning where natural (not every time): SAIB Hea
 
 ## Step 2: Weekly interactive article
 
-- Cadence: one per week (ask which day if not specified, default Monday research → Wednesday draft is a reasonable rhythm, but follow Mido's stated cadence if given).
-- Length: ~600-1000 words, structured with subheadings, suited to LinkedIn's article format.
+- Cadence: one per week — research over the weekend (starting Sunday), draft ready by Tuesday, unless Mido states a different cadence.
+- Length: ~700-1000 words, structured with subheadings, suited to LinkedIn's article format.
 - "Interactive" = include a clear discussion hook — a poll-style question, a "which side are you on" framing, or an explicit call for comments — near the top or the close.
 - Angle: connects a live industry trend to practical BPR/transformation implications, ideally with a real-world banking/enterprise framing (without disclosing anything confidential from SAIB — see Confidentiality note below).
 - Present the full draft in chat with a suggested title, then wait for approval or edit requests.
 
 ## Step 3: Daily posts
 
+- Cadence: one post per weekday (Mon-Fri), none on weekends.
 - Length: 100-250 words, native LinkedIn post style — short paragraphs/line breaks, no heavy markdown (LinkedIn doesn't render markdown).
 - One clear idea per post. End with a light engagement prompt (a question, an invite to share experience) rather than a generic CTA.
-- Rotate POV and news-recap angles across the week; ask Mido once at the start of a batch if he wants a specific split (e.g. 2 POV / 3 news this week).
+- Fixed weekly split: 2 POV/hot-take posts, 3 news-recap posts (default Mon/Thu = POV, Tue/Wed/Fri = news-recap; confirm with Mido if he wants the days rearranged for a given week).
 - Present drafts in chat, one at a time or as a batch (ask Mido's preference if doing multiple days at once), each clearly labeled with the day and angle.
 
 ## Step 4: Review gate (mandatory)
