@@ -7,6 +7,8 @@ description: Build Mido's LinkedIn personal brand around Business Process Re-eng
 
 Builds and runs Mido's personal-branding content engine on LinkedIn, centered on Business Process Re-engineering (BPR), AI, automation, and digital transformation — the themes that map to his GCC job search positioning (IBM BAW delivery + Lean Six Sigma Black Belt + CRISC).
 
+**Target profile**: [linkedin.com/in/ahmed-khattab-90181486](https://www.linkedin.com/in/ahmed-khattab-90181486/). When publishing via Composio, use the `linga-parded` connected LinkedIn account (currently the default) — there is a second connected account (`aselli-pride`) under the same name that must NOT be used for publishing.
+
 ## Example invocations
 
 This skill triggers on natural language, not a slash command — just say what you want:
@@ -67,7 +69,7 @@ Weave in Mido's established positioning where natural (not every time): SAIB Hea
 Use `tool_search` with a query like "linkedin post composio" or "composio linkedin" to load the actual Composio LinkedIn publish tool — its exact name and parameters aren't known in advance and must be discovered via `tool_search` (per the deferred-tools system). Steps:
 
 1. `tool_search(query="linkedin composio post")` to find and load the relevant tool.
-2. If no LinkedIn-capable Composio tool is connected, use `search_mcp_registry` / `suggest_connectors` to help Mido connect it — do not fall back to a different platform.
+2. If no LinkedIn-capable Composio tool is connected, use `search_mcp_registry` / `suggest_connectors` to help Mido connect it — do not fall back to a different platform. If more than one LinkedIn account is connected, confirm which `account_id`/alias corresponds to Mido's actual profile (see "Target profile" above) before posting — do not assume the default account is correct without checking, since a second, unrelated connection may exist.
 3. Call the tool with exactly the approved text (article or post). For articles, check whether the tool supports LinkedIn's long-form article format vs. a standard post, and flag to Mido if only standard posts are supported so he knows the article may need manual formatting on LinkedIn's side.
 4. Confirm success back to Mido with a short summary (don't dump raw API output).
 
